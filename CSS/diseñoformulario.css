@@ -1,0 +1,94 @@
+.body{
+    background-color:  #dcfbb0;
+    }
+
+
+.fuente6{
+    height: 180px;
+    width: auto;
+    margin-left: 300px;
+    }
+
+.formulario {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:  #033949;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 70px;
+    padding: 50px;
+    border:4px solid #033949;
+    background-image: url("../assets/formulariofondo.jpg");
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size:cover;    
+    }
+
+.texto{
+    text-align: justify; 
+    }
+
+input[type="cambio1"]{
+    padding:3px 182px;
+    background-color: #033949;
+    border:1px solid  #033949;
+    color: white;
+    border-radius: 3px;
+    display:inline-block;
+    margin:8px 0;
+    }
+
+input[type="cambio2"]{
+    padding:3px 47px;
+    background-color: #033949;
+    border:1px solid  #033949;
+    color: white;
+    border-radius: 3px;
+    display:inline-block;
+    margin:8px 0;
+    }
+
+input[type="cambio3"]{
+    padding:3px 56px;
+    background-color: #033949;
+    border:1px solid  #033949;
+    color: white;
+    border-radius: 3px;
+    display:inline-block;
+    margin:8px 0;
+    }
+
+input[type="text"]{
+	width:180px;
+	padding:3px 15px;
+	border:1px solid  #033949;
+	border-radius:3px;
+	background-color: #033949;
+	margin:8px 0;
+    display:inline-block;
+    color: white;  
+    }
+
+input[type="submit"]{
+    margin-left: 280px;
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #033949;
+    border:1px solid  #033949;
+    color: white;
+    border-radius:3px;    
+    }
+
+.enviar:hover{
+    background-color: #a6ff2a;
+    }
+    
+.enviar:active{
+    background-color: #a6ff2a;        
+    }
+
+   
+
+
+
+    

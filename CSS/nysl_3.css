@@ -1,0 +1,262 @@
+.body{
+    font-family: 'Turret Road', cursive;
+    margin-left: unset;
+    margin-right: unset;
+    background-image: url("../assets/fondo.jpg"); 
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 100%;
+    width: 100;
+    margin: 0px;
+    }
+
+.título-principal{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Black Ops One', cursive; 
+    color:#033949;
+    background-color: #ecfae7;
+    margin-top: 0%;
+    padding-top: 15px;
+    height: 80px;
+    width: 100%;    
+    }  
+
+.header {
+    border: 4px solid #033949;
+    background-image: url("../assets/banner.jpg");
+    object-fit: cover;
+    position: relative;
+    height: 150px;  
+    margin-top: -40px;
+    }   
+
+.logo{
+    height: 145px;
+    width: 146px;
+    margin-top: 2px;
+    margin-left: 650px;
+    }
+
+.nav .lista {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #033949;
+    margin-top: 0px;
+    padding-left: 450px;
+    }
+     
+.li {
+    float: left;
+    }
+      
+.li .ancla {
+    display: inline;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+    text-decoration: none;
+    border-right: 1px solid #bbb;
+    border-left:  1px solid #bbb; 
+    }
+
+.li .ancla:hover{
+    background-color: #a6ff2a;
+    }
+
+.li .ancla:active{
+    background-color: #a6ff2a;        
+    }
+      
+.carousel {
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    margin-left: 470px;
+    }
+
+.carousel-item {
+    width: 150px;
+    margin-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 450ms all;
+    transform-origin: center left;
+    }
+
+.carousel-item:hover ~ .carousel-item {
+    transform: translate3d(100px, 0, 0);
+    }
+
+.carousel__container:hover .carousel-item:hover {
+    transform: scale(1.5);  
+    }
+
+.carousel-item__details {
+    width: auto;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 15px;
+    }
+
+.banderas{
+    background-image: url("../assets/bandera.png");
+    background-repeat: repeat;
+    position: relative;
+    object-fit: cover;
+    height: 110px;
+    width: 100%;
+    margin-top: 20px;
+    }
+
+.fuentes{
+    height: 200px;
+    width: auto;
+    margin-left: 100px;
+    }
+
+
+.aside1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -480px;
+    }
+
+.aside2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -300px;
+    }
+
+.aside3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -280px;
+    }
+
+.fondoaside{
+    text-align: center;
+    height: 50px ;
+    width: 600px;
+    background:linear-gradient( #033949,#99c0cc);
+    font-size: 18px;
+    border-radius: 10px;
+    padding-top: 10px;
+    color: white;
+    margin-left: 400px;
+    }
+
+.fondoaside1{
+    text-align: center;
+    height: 40px ;
+    width: 300px;
+    background:linear-gradient( #aaaeaf,#eff6f8);
+    font-size: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+    color: #033949;
+    margin-left: 560px;
+    }
+
+.fondoaside3{
+    
+    text-align: justify;
+    height: 170px ;
+    width: 610px;
+    background:linear-gradient( #033949,#99c0cc);
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 50px;
+    color: white;
+    margin-left: 350px;
+    }
+
+.fondoaside4{
+    text-align: center;
+    height: 50px ;
+    width: 710px;
+    background:linear-gradient( #aaaeaf,#eff6f8);
+    font-size: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+    color: #033949;
+    margin-left: 350px;
+    }
+
+.carta{
+    height: 200px;
+    width: 200px;
+    margin-top: -130px;
+    margin-left: 60px;
+    }
+        
+
+ .fondoaside6{
+    height: 100px;
+    width: 100%;
+    background:linear-gradient( #033949,#99c0cc);
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 18px;
+    }
+
+.mascota{
+    height: 400px;
+    width: auto;
+    margin-left: 1080px;
+    }
+
+.mascota2{
+    height: 300px;
+    width: auto;
+    margin-left: 1080px;
+    }
+
+
+.mascota3{
+    height: 300px;
+    width: auto;
+    margin-left: 900px;
+    }
+
+.footer{
+    margin-top: 150px;
+    padding-top: 30px;
+    background-color: #033949;
+    color: white;
+    height: 100px;
+    }
+
+.botones{
+    margin-left: 468px;
+    }
+
+.botón{
+    width: 120px;
+    height: 60px;
+    border: none;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    background-color:#bae2e4;
+    transition-duration: 0.4s;
+    margin-left: 10px;
+    }
+
+.botón:hover {
+    background-color: #a6ff2a;
+    color: white;
+    }
+    
+
+
+     
+      
+
+
+
+        
+    
+     
